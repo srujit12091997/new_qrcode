@@ -51,8 +51,8 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }} # Update secret name if different
-          password: ${{ secrets.DOCKERHUB_TOKEN }} # Update secret name if different
+          username: srujit12091997                  # Update secret name if different
+          password: Sanju@123 # Update secret name if different
           
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
