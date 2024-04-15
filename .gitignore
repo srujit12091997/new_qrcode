@@ -1,6 +1,6 @@
 venv
 _*pycache*_
-qr_codes
+qr_codes_storage
 *.sqlite
 .vscode
 .env

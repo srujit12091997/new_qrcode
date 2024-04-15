@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Adjust permissions for the qr_codes directory
-# chmod 777 /app/qr_codes
+# Adjust permissions for the qr_codes_storage directory
+# chmod 777 /app/qr_codes_storage
 
 # Start the FastAPI application for local
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
